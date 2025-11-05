@@ -1,0 +1,51 @@
+body { 
+  background: #222; 
+  color: #fff; 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+}
+
+#falling-row { 
+  position: absolute; 
+  left: 50vw; 
+  top: 40px; 
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.slide { 
+  font-size: 60px; 
+  font-weight: bold; 
+  color: #FFD700; 
+  line-height: 1;
+}
+
+#panel { 
+  position: absolute; 
+  top: 13px; 
+  left: 14px; 
+  background: #333; 
+  padding: 12px 17px; 
+  border-radius: 8px; 
+  font-size: 16px; 
+}
+
+#score, #lives { 
+  margin: 8px 0; 
+  font-size: 18px; 
+}
+
+#game-over { 
+  font-size: 23px; 
+  color: #ff5252; 
+  margin: 9px 0 0; 
+}
+
+#lose-line {
+  background-color: #ff5252;
+  position: fixed;
+  width: 100vw;
+  height: 7px;
+  bottom: 10vh;
+}
